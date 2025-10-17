@@ -35,8 +35,8 @@
 import { ref, watch } from 'vue'
 
 const items = [
-  { title: 'Foo', value: 'foo' },
-  { title: 'Bar', value: 'bar' },
+  { title: 'Inicio', value: 'home', route: '/' },
+  { title: 'Gastos', value: 'gastos', route: '/gastos' },
   { title: 'Fizz', value: 'fizz' },
   { title: 'Buzz', value: 'buzz' },
 ]
