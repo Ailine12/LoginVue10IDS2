@@ -22,4 +22,8 @@ registerPlugins(app)
 
 app.mount('#app')
 
+import vuetify from './plugins/vuetify'
+
+createApp(App).use(vuetify).mount('#app')
+
 
